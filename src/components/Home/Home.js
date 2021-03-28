@@ -1,5 +1,6 @@
 import React from 'react'
-import AddEvents from '../AddEvents/AddEvents'
+
+import Events from '../Events/Events'
 
 const Home = () => {
 
@@ -33,7 +34,7 @@ const Home = () => {
     return (
         <div className="row">
             {
-                events.map(event => <AddEvents ev={event}/>)
+                events.map(event => <Events ev={event}/>)
             }
         </div>
     )
