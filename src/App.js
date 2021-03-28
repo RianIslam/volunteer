@@ -13,6 +13,24 @@ function App() {
   return (
     <div className="App">
       <Router>
+
+      <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/addEvents">AddEvents</Link>
+            </li>
+            <li>
+              <Link to="/dashboard">Dashboard</Link>
+            </li>
+          </ul>
+        </nav>
+
+
+
+
       <Switch>
           <Route path="/">
             <Home />

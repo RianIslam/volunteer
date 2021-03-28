@@ -6,32 +6,32 @@ const Home = () => {
     const events = [
         {
             name:'Child Support',
-            pic: ''
+            pic: 'animalShelter.png'
         },
         {
             name:'Animal Shelter',
-            pic: ''
+            pic: 'babySit.png'
         },
         {
             name:'Bird House',
-            pic: ''
+            pic: 'birdHouse.png'
         },
         {
             name:'Good student',
-            pic: ''
+            pic: 'childSupport.png'
         },
         {
             name:'Child Support',
-            pic: ''
+            pic: 'cleanWater.png'
         },
         {
             name:'Child Support',
-            pic: ''
+            pic: 'clearnPark.png'
         }
     ]
 
     return (
-        <div>
+        <div className="row">
             {
                 events.map(event => <AddEvents ev={event}/>)
             }
