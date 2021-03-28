@@ -5,6 +5,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Home from './components/Home/Home';
+import AddEvents from './components/AddEvents/AddEvents';
+import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
   return (
